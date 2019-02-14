@@ -967,6 +967,7 @@
             var img = a.firstElementChild;
     
             items.push({
+              id: el.getAttribute("data-id"),  
               src: a.getAttribute("href"),
               length: a.getAttribute("data-length"),
               type: a.getAttribute("data-type"),
